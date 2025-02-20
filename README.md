@@ -45,10 +45,10 @@
 > * ([스크립트](https://github.com/agsydhf94/PROJECT_HA_2025/blob/master/Assets/Scripts/PlayerHealth/SkillManager.cs#L171))RectTransform 조정으로 활성화된 스킬 UI를 플레이어 UI에 표시
 
 ### 보스전
-> * ([스크립트]())이진 검색 알고리즘으로 Cinemachine Dolly Track에서 Cart가 가장 최근에 지난 웨이포인트 가져오기
-> * ([스크립트]())보스 공격 직전 플레이어에게 경고성 레이저를 투사하고 레이저가 특정 레이어를 갖는 오브젝트에 닿았을 때의 지점과 Normal을 반영한 공격 구역 표시
-> * ([스크립트]())보스 분절(Segment) 가 피격되었을 때 DoTween를 이용하여 Material 색상 깜빡이기 및 충격으로 떨리는 효과구현
-> * ([스크립트]())보스 분절 파괴 시 MeshRenderer, Collider 비활성화 및 오브젝트 풀링에 의한 폭발 효과 로딩과 UniTask 비동기 처리에 의한 복귀
+> * ([스크립트](https://github.com/agsydhf94/PROJECT_HA_2025/blob/master/Assets/Scripts/BossBattle/BossEnemy.cs#L163))이진 검색 알고리즘으로 Cinemachine Dolly Track에서 Cart가 가장 최근에 지난 웨이포인트 가져오기
+> * ([스크립트](https://github.com/agsydhf94/PROJECT_HA_2025/blob/master/Assets/Scripts/BossBattle/BossEnemy.cs#L442))보스 공격 직전 플레이어에게 경고성 레이저를 투사하고 레이저가 특정 레이어를 갖는 오브젝트에 닿았을 때의 지점과 Normal을 반영한 공격 구역 표시
+> * ([스크립트](https://github.com/agsydhf94/PROJECT_HA_2025/blob/master/Assets/Scripts/BossBattle/EnemySegment.cs#L67))보스 분절(Segment) 가 피격되었을 때 DoTween를 이용하여 Material 색상 깜빡이기 및 충격으로 떨리는 효과구현
+> * ([스크립트](https://github.com/agsydhf94/PROJECT_HA_2025/blob/master/Assets/Scripts/BossBattle/BossEnemy.cs#L392))보스 분절 파괴 시 MeshRenderer, Collider 비활성화 및 오브젝트 풀링에 의한 폭발 효과 로딩과 UniTask 비동기 처리에 의한 복귀
 
 ### 미사일 런처 무기
 > * ([스크립트]())특정 클래스를 상속한 오브젝트의 콜라이더를 감지했을 때의 타겟팅 UI를 게임 화면상에 표시
