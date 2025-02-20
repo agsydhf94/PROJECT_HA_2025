@@ -16,7 +16,7 @@
 > * Queue를 이용한 ObjectPool과 사용 예시 
 
 ### 플레이어 UI
-> * <details><summary>World Space 에서 플레이어를 따라다니는 UI</summary> 접은 내용(ex 소스 코드)</details>
+>  <details><summary>World Space 에서 플레이어를 따라다니는 UI</summary> 접은 내용(ex 소스 코드)</details>
 > * 사격 시 UI 효과 - Post Processing 을 이용한 Motion Blur
 
 ### 플레이어 상호작용
