@@ -27,7 +27,6 @@
 > * 클래스 상속을 이용한 무기 구현
 
 ### 인벤토리
-> * 인벤토리 시스템의 전반적 구조
 > * Scriptable Object로 장비와 아이템 정보 관리
 > * 장비 및 아이템 추가 로직
 > * Strategy 패턴을 이용한 인벤토리 장비 장착 <https://agsydhf94.tistory.com/1>
