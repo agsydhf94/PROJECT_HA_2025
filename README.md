@@ -27,7 +27,7 @@
 > * 클래스 상속을 이용한 무기 구현
 
 ### 인벤토리
-> * Scriptable Object로 장비와 아이템 정보 관리
+> * ([스크립트](https://github.com/agsydhf94/PROJECT_HA_2025/blob/master/Assets/Scripts/Inventory/EquipmentSO.cs#L9))Scriptable Object로 장비와 아이템 정보 관리
 > * 장비 및 아이템 추가 로직
 > * Strategy 패턴을 이용한 인벤토리 장비 장착 <https://agsydhf94.tistory.com/1>
 > * 인벤토리 장비 장착 - TransformOffsetData 구조체 사용과 그 근거 <https://agsydhf94.tistory.com/2>
