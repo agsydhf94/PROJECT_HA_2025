@@ -20,7 +20,8 @@
 > * 사격 시 UI 효과 - Post Processing 을 이용한 Motion Blur
 
 ### 플레이어 상호작용
-> * 인터페이스를 이용한 상호작용
+> * <details><summary>인터페이스를 이용한 상호작용</summary> <img src="https://github.com/user-attachments/assets/533b5602-9bf3-49bd-a138-8635a0fc4c29" width="500" height="287"/> </details>
+
 
 ### 무기 시스템
 > * 클래스 상속을 이용한 무기 구현
