@@ -28,30 +28,28 @@
 
 ### 인벤토리
 > * ([스크립트](https://github.com/agsydhf94/PROJECT_HA_2025/blob/master/Assets/Scripts/Inventory/EquipmentSO.cs#L9))Scriptable Object로 장비와 아이템 정보 관리
-> * 장비 및 아이템 추가 로직
-> * Strategy 패턴을 이용한 인벤토리 장비 장착 <https://agsydhf94.tistory.com/1>
-> * 인벤토리 장비 장착 - TransformOffsetData 구조체 사용과 그 근거 <https://agsydhf94.tistory.com/2>
+> * ([스크립트](https://github.com/agsydhf94/PROJECT_HA_2025/blob/master/Assets/Scripts/Inventory/InventoryManager.cs#L124))장비 및 아이템 추가 로직
+> * ([스크립트](https://github.com/agsydhf94/PROJECT_HA_2025/blob/master/Assets/Scripts/Inventory/EquipmentStrategy_Manager.cs#L6))Strategy 패턴을 이용한 인벤토리 장비 장착 <https://agsydhf94.tistory.com/1>
+> * ([스크립트]())인벤토리 장비 장착 - TransformOffsetData 구조체 사용과 그 근거 <https://agsydhf94.tistory.com/2>
 
 
 ### 퀘스트
-> * 퀘스트 시스템 - 퀘스트 정보 클래스의 구조 <https://agsydhf94.tistory.com/3>
-> * 퀘스트 정보를 Json 으로부터 읽어오기
-> * 퀘스트 진행도 추적
-> * 퀘스트 완료시 보상 시스템
-> * 퀘스트 정보 UI에서 보상 아이템 목록 UI 동적 생성
-> * 진행중인 퀘스트와 완료된 퀘스트를 아카이빙하는 퀘스트 북 UI
-> * 퀘스트 북 안에서 보고싶은 퀘스트를 선택할 수 있는 활성 퀘스트 버튼 UI
+> * ([스크립트](https://github.com/agsydhf94/PROJECT_HA_2025/blob/master/Assets/Scripts/Quest/QuestData.cs#L11))퀘스트 시스템 - 퀘스트 정보 클래스의 구조 <https://agsydhf94.tistory.com/3>
+> * ([스크립트](https://github.com/agsydhf94/PROJECT_HA_2025/blob/master/Assets/Scripts/Quest/QuestData.cs#L80))퀘스트 정보를 Json 으로부터 읽어오기
+> * ([스크립트](https://github.com/agsydhf94/PROJECT_HA_2025/blob/master/Assets/Scripts/Quest/QuestData.cs#L80))퀘스트 진행도 추적
+> * ([스크립트](https://github.com/agsydhf94/PROJECT_HA_2025/blob/master/Assets/Scripts/Quest/QuestManager.cs#L561))퀘스트 정보 UI에서 보상 아이템 목록 UI 동적 생성
+> * ([스크립트](https://github.com/agsydhf94/PROJECT_HA_2025/blob/master/Assets/Scripts/Quest/ActiveQuestButton.cs#L11))퀘스트 북 안에서 보고싶은 퀘스트를 선택할 수 있는 활성 퀘스트 버튼 UI
 
 ### 스킬 트리
-> * Scriptable Object로 스킬 정보 관리
-> * RectTransform 조정으로 활성화된 스킬 UI를 플레이어 UI에 표시
+> * ([스크립트](https://github.com/agsydhf94/PROJECT_HA_2025/blob/master/Assets/Scripts/PlayerHealth/SkillSO.cs#L11))Scriptable Object로 스킬 정보 관리
+> * ([스크립트](https://github.com/agsydhf94/PROJECT_HA_2025/blob/master/Assets/Scripts/PlayerHealth/SkillManager.cs#L171))RectTransform 조정으로 활성화된 스킬 UI를 플레이어 UI에 표시
 
 ### 보스전
-> * 이진 검색 알고리즘으로 Cinemachine Dolly Track에서 Cart가 가장 최근에 지난 웨이포인트 가져오기
-> * 보스 공격 직전 플레이어에게 경고성 레이저를 투사하고 레이저가 특정 레이어를 갖는 오브젝트에 닿았을 때의 지점과 Normal을 반영한 공격 구역 표시
-> * 보스 분절(Segment) 가 피격되었을 때 DoTween를 이용하여 Material 색상 깜빡이기 및 충격으로 떨리는 효과구현
-> * 보스 분절 파괴 시 MeshRenderer, Collider 비활성화 및 오브젝트 풀링에 의한 폭발 효과 로딩과 UniTask 비동기 처리에 의한 복귀
+> * ([스크립트]())이진 검색 알고리즘으로 Cinemachine Dolly Track에서 Cart가 가장 최근에 지난 웨이포인트 가져오기
+> * ([스크립트]())보스 공격 직전 플레이어에게 경고성 레이저를 투사하고 레이저가 특정 레이어를 갖는 오브젝트에 닿았을 때의 지점과 Normal을 반영한 공격 구역 표시
+> * ([스크립트]())보스 분절(Segment) 가 피격되었을 때 DoTween를 이용하여 Material 색상 깜빡이기 및 충격으로 떨리는 효과구현
+> * ([스크립트]())보스 분절 파괴 시 MeshRenderer, Collider 비활성화 및 오브젝트 풀링에 의한 폭발 효과 로딩과 UniTask 비동기 처리에 의한 복귀
 
 ### 미사일 런처 무기
-> * 특정 클래스를 상속한 오브젝트의 콜라이더를 감지했을 때의 타겟팅 UI를 게임 화면상에 표시
-> * 정렬 알고리즘으로 조준원의 중앙에 가장 가까운 타겟을 감지
+> * ([스크립트]())특정 클래스를 상속한 오브젝트의 콜라이더를 감지했을 때의 타겟팅 UI를 게임 화면상에 표시
+> * ([스크립트]())정렬 알고리즘으로 조준원의 중앙에 가장 가까운 타겟을 감지
