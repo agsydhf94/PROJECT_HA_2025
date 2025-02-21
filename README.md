@@ -17,8 +17,8 @@
 # 기술 개요
 
 ### 오브젝트 관리
-> * Singleton 패턴과 사용 예시
-> * Queue를 이용한 ObjectPool과 사용 예시 
+> * Singleton 패턴
+> * Queue를 이용한 ObjectPool
 
 ### 플레이어 UI
 >  <details><summary>World Space 에서 플레이어를 따라다니는 UI</summary> <img src="https://github.com/user-attachments/assets/fd1665fb-ee92-4b11-af0c-28b40448ef55" width="500" height="287"/> </details>
