@@ -41,7 +41,7 @@
 ### 퀘스트
 > * ([스크립트](https://github.com/agsydhf94/PROJECT_HA_2025/blob/master/Assets/Scripts/Quest/QuestData.cs#L11))퀘스트 시스템 - 퀘스트 정보 클래스의 구조 <https://agsydhf94.tistory.com/3>
 > * ([스크립트](https://github.com/agsydhf94/PROJECT_HA_2025/blob/master/Assets/Scripts/Quest/QuestData.cs#L80))퀘스트 정보를 Json 으로부터 읽어오기
-> * ([스크립트](https://github.com/agsydhf94/PROJECT_HA_2025/blob/master/Assets/Scripts/Quest/QuestData.cs#L80))퀘스트 진행도 추적
+> * ([스크립트](https://github.com/agsydhf94/PROJECT_HA_2025/blob/master/Assets/Scripts/Quest/QuestData.cs#L80))<details><summary>퀘스트 진행도 추</summary> <img src="https://github.com/user-attachments/assets/915a2625-c0d0-4435-b430-d90da5e9ac2c" width="500" height="287"/> </details>
 > * ([스크립트](https://github.com/agsydhf94/PROJECT_HA_2025/blob/master/Assets/Scripts/Quest/QuestManager.cs#L561))퀘스트 정보 UI에서 보상 아이템 목록 UI 동적 생성
 > * ([스크립트](https://github.com/agsydhf94/PROJECT_HA_2025/blob/master/Assets/Scripts/Quest/ActiveQuestButton.cs#L11))퀘스트 북 안에서 보고싶은 퀘스트를 선택할 수 있는 활성 퀘스트 버튼 UI
 
